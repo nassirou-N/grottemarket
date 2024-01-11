@@ -19,7 +19,10 @@ function App() {
         <IoIosNotifications className="w-7 h-8"/>
         <FaUserAlt className="w-7 h-8"/>
       </nav>
-      <div className="h-[700px] w-[1110px] border border-teal-50 rounded-md"></div>
+      <div className="h-[700px] w-[1110px] border border-teal-50 rounded-lg flex">
+        <nav className='h-full w-[300px] border-r '></nav>
+        <div className="bg-gray-500"></div>
+      </div>
     </main>
   )
 }
